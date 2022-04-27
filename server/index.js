@@ -7,11 +7,11 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/index.html'))
 })
 
-app.use(express.static('client'))
+// app.use(express.static('client'))
 
-// app.get('/css', (req, res) => {
-//     res.sendFile(path.join(__dirname, '../client/styles.css'))
-// })
+app.get('/css', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/styles.css'))
+})
 
 // app.get('/js', (req, res) => {
 //     res.sendFile(path.join(__dirname, '../client/main.js'))
