@@ -1,7 +1,15 @@
 body {
     background-color: aquamarine;
+    text-align: center;
 }
 
+
+
 #dreamcast-image {
+    /* height: 95 vh; */
+    width: 50vw;
     border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
